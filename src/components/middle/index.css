@@ -1,0 +1,60 @@
+.outlet-container {
+  height: 450px;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+@media screen and (min-width: 240px) and (max-width: 600px) {
+  .outlet-container {
+    height: 30%;
+  }
+}
+
+.ions {
+  height: 85px;
+  width: 95px;
+}
+
+.middle-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
+
+.outlet-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.outlet-types {
+  height: 145px;
+  width: 210px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.outlet-types:hover {
+  color: blue;
+}
+
+.middle-heading {
+  text-align: center;
+}
+
+.middle-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #7a7979;
+  font-weight: 500;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}

@@ -1,0 +1,142 @@
+.middle-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #7a7979;
+  font-weight: 500;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.social-icons2 {
+  height: 27px;
+  width: 30px;
+  background-color: antiquewhite;
+  border-radius: 25px;
+  margin: 5px;
+  text-align: center;
+  padding: 3.5px;
+}
+
+.info1 {
+  height: 340px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-para1 {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #7a7979;
+  font-weight: 400;
+  margin: 5px;
+  padding: 5px;
+  text-align: left;
+}
+
+.quick-links {
+  height: 240px;
+  width: 350px;
+}
+
+@media screen and (min-width: 240px) and (max-width: 600px) {
+  .quick-links {
+    height: 400px;
+    margin-left: 10px;
+  }
+}
+
+.quick-heading {
+  color: #8dc231;
+}
+
+.anchor-para {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #7a7979;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.anchor-para1 {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #7a7979;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+.anchor-para:hover {
+  color: #8dc231;
+}
+
+.span2 {
+  height: 17px;
+  width: 20px;
+  background-color: #8dc231;
+  color: white;
+  font-family: 'roboto';
+  font-size: 13px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.span1 {
+  height: 17px;
+  width: 20px;
+  background-color: red;
+  color: white;
+  font-family: 'roboto';
+  font-size: 13px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.tmbill-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.span3 {
+  height: 17px;
+  width: 20px;
+  background-color: #0d65e0;
+  color: white;
+  font-family: 'roboto';
+  font-size: 13px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.add {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 60px;
+  width: 170px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 240px) and (max-width: 600px) {
+  .tmbill-main {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 240px) and (max-width: 600px) {
+  .tm-products {
+    height: 530px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 240px) and (max-width: 600px) {
+  .address {
+    height: 500px;
+    margin-left: 10px;
+  }
+}

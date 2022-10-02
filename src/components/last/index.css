@@ -1,0 +1,95 @@
+.register {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.request-name {
+  height: 300px;
+  width: 300px;
+}
+
+@media screen and (min-width: 240px) and (max-width: 600px) {
+  .register {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 240px) and (mx-width: 600px) {
+  .request-name {
+    height: 250px;
+    width: 200px;
+  }
+}
+
+.register1 {
+  height: 500px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.input {
+  height: 30px;
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.input1 {
+  height: 30px;
+  width: 130px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.input2 {
+  height: 30px;
+  width: 130px;
+  padding: 10px;
+  margin: 4px;
+}
+
+.demo-heading {
+  text-align: center;
+}
+
+.request-call {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 300px;
+  width: 100%;
+  background-image: linear-gradient(to right, #0377fc, #b4eb8a);
+  margin-top: 10px;
+}
+
+.color {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.request-call1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.request {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 240px) and (max-width: 600px) {
+  .request-call {
+    height: 600px;
+    flex-direction: column;
+  }
+}

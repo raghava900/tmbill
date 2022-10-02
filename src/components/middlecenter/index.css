@@ -1,0 +1,25 @@
+.high-lights {
+  height: 200px;
+  background-image: url('https://tmbill.com/img/tmbill_Company_highlights.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+}
+
+.middle-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.middle-heading-ion {
+  color: white;
+}
+
+.dis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

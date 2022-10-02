@@ -1,0 +1,32 @@
+.our-client-images {
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+
+.our-client-images2 {
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+
+.our-client-images3 {
+  display: flex;
+}
+
+.slider-container1 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.picture {
+  height: 200px;
+  width: 90px;
+  margin: 10px;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+}

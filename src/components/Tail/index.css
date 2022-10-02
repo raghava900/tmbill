@@ -1,0 +1,19 @@
+.head {
+  font-family: 'Roboto';
+  margin-left: 10%;
+}
+
+.location {
+  text-align: left;
+  color: #8dc231;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.copy-right {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: #004d00;
+  color: white;
+}
