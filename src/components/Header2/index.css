@@ -11,6 +11,12 @@
   display: flex;
 }
 
+@media screen and (min-width: 240px) and (max-width: 440px) {
+  .Header2 {
+    width: 500px;
+  }
+}
+
 .header-para {
   font-family: 'Roboto';
   font-size: 14px;
@@ -36,6 +42,13 @@
 .dropdown {
   position: relative;
   display: inline-block;
+}
+
+.drop-final {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .dropdown-content {
@@ -103,7 +116,7 @@
 }
 
 @media screen and (max-width: 440px) {
-  .burger-main {
-    display: block;
+  .options {
+    display: none;
   }
 }

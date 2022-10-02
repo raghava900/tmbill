@@ -1,3 +1,4 @@
+import {AiOutlineMenu} from 'react-icons/ai'
 import './index.css'
 
 const Header2 = () => (
@@ -128,10 +129,10 @@ const Header2 = () => (
         </a>
       </p>
     </div>
-    <div className="burger-main">
+    <div className="drop-final">
       <div className="dropdown">
         <button className="dropbtn" type="button">
-          Dropdown
+          <AiOutlineMenu />
         </button>
         <div className="dropdown-content">
           <p className="para">Home</p>
